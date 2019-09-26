@@ -1,0 +1,41 @@
+{
+  "name": "create-my-project-cli",
+  "version": "1.0.0",
+  "description": "A cli to create project quickly...",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js,.tsx,.ts",
+    "lint:fix": "yarn lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beMySun/create-my-project-cli.git"
+  },
+  "bin": {
+    "create-repo": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beMySunbeMySun/create-my-project-cli/issues"
+  },
+  "homepage": "https://github.com/beMySun/create-my-project-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "download": "^7.1.0",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.2.1",
+    "inquirer": "^7.0.0",
+    "ora": "^4.0.0",
+    "symbols": "^0.0.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  }
+}
