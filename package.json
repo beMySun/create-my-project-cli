@@ -1,6 +1,6 @@
 {
   "name": "create-my-project-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A cli to create project quickly...",
   "main": "index.js",
   "scripts": {
@@ -14,10 +14,10 @@
   "bin": {
     "create-project": "index.js"
   },
-  "author": "",
+  "author": "KK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/beMySunbeMySun/create-my-project-cli/issues"
+    "url": "https://github.com/beMySun/create-my-project-cli/issues"
   },
   "homepage": "https://github.com/beMySun/create-my-project-cli#readme",
   "dependencies": {

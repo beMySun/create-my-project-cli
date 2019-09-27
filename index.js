@@ -11,7 +11,7 @@ const handlebars = require('handlebars');
 
 program
   .version(require('./package').version, '-v, --version')
-  .command('init <name>')
+  .command('<name>')
   .action(name => {
     if (!fs.existsSync(name)) {
       inquirer
