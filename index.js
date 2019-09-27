@@ -57,14 +57,11 @@ program
           });
         });
     } else {
-      // 错误提示项目已存在，避免覆盖原有项目
-      console.error(symbols.error, chalk.red('project had exist'));
+      console.error(symbols.error, chalk.red('project has existed !!!'));
     }
   })
   .on('--help', () => {
-    console.log('  Examples:');
-    console.log('    $ w init index');
-    console.log();
+    console.log(' Examples: ');
   });
 
 program.parse(process.argv);

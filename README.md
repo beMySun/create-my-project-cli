@@ -7,7 +7,7 @@ A cli to create project quickly
 
 ## create react project
 
-1. create-my-project init [project-name]
+1. create-project init [project-name]
 2. choose react template type
 3. run `yarn && yarn start`
 
