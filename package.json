@@ -1,6 +1,6 @@
 {
   "name": "create-my-project-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A cli to create project quickly...",
   "main": "index.js",
   "scripts": {
